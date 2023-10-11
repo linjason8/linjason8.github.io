@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: "Roboto";
+    background: #363545;
+    font-size: 15px;
+    color: rgb(182, 182, 182);
+}
+
+h1 {
+    font-size: 5em;
+    color: #f0f0f0;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.navbar {
+    display: inline-block;
+    position: fixed;
+    z-index: 999;
+    margin: 0px;
+    padding: 0em 6em;
+    height: 4em;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #25242e;
+}
+
+.navbar .container {
+    margin: 0px;
+    padding: 0em;
+    height: inherit;
+}
+
+.navbar .container nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+}
+
+.navbar .container nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    grid-template-columns: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .container nav ul li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.navbar .container nav ul li a {
+    margin: 0em 2em;
+    vertical-align: center;
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.navbar .container .navname {
+    line-height: 2.7em;
+    vertical-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.text-section .container{
+    padding: 5em 5em;
+    text-align: center;
+    background-color: #25242e;
+}
+
+.text-section#Home .container{
+    text-align: left;
+    margin: 0em 0em 15em 5em;
+    padding: 20em 0em 5em 20em;
+    width: 600px;
+    background-color: #363545;
+}
+
+.text-section#Home{
+    display: grid;
+    grid-template-columns: 600px auto;
+}
+
+.text-section#Home img{
+    text-align: right;
+    padding: 10em 5em 5em 9em;
+    width: 70%;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 2em;
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: purple;
+}
